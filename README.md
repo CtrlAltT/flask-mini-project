@@ -82,12 +82,18 @@ python -m flask ** name of the command **
 Available custom commands:
 
 name
+
 all_information
+
 experience
+
 education
 
+
 E.g. 
+
 python -m flask education returns: 
+
     [{'degree': "Bachelor's degree",
       'end_date': 'jul-2012',
       'school': 'University Vasile Alecsandri',
