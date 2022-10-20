@@ -12,7 +12,7 @@ Prerequsite
  
  Project structure. 
  
- 1. bin (wsgi entrypoint ) in case we want to run our app.
+ 1. bin (wsgi entrypoint ) necessary to have a flask instance opend
  2. src : here is the bussines logic, read_data.py is responsible to read and send all the data via endpoints or custom commands. 
   a. test folder: unittests for read data layer.
   
