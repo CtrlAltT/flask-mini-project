@@ -77,7 +77,7 @@ In order to check the response run:
 
 After that, from root dir run in terminal:
 
-python -m flask <name of the command > 
+python -m flask ** name of the command **
 
 Available custom commands:
 
