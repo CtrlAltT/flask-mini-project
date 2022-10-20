@@ -24,8 +24,11 @@ Run and testing
 Flask instance expose 4 endpoints:
 
 / - returns all data from json
+
 /name - returns candidate name from json
+
 /experience - returns candidate experience
+
 /education - returns candidate education 
 
 Run without docker. 
