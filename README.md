@@ -34,6 +34,7 @@ Flask instance expose 4 endpoints:
 Run without docker. 
 
 Troubleshooting
+
  Please be sure that you are in the root directory while execute bellow commands. 
 
 1. run python3 -m venv env (create a virtual enviroment where we will install requirements for this project)
