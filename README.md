@@ -44,6 +44,8 @@ Troubleshooting
 After third command we can navigate to http://127.0.0.1:8080 or use a rest read client(e.g. Postman)
 
 Example of response from http://127.0.0.1:8080/education :
+
+
   {
       "education": [
           {
