@@ -60,9 +60,11 @@ Running with docker
 To build a containerised version of the API, run:
 
 docker build . -t flask-app
+
 To launch the containerised app, run:
 
 docker run -p 5000:5000 flask-app
+
 You should see your server boot up, and should be accessible as before.
 
 Test with custom commands. 
