@@ -6,12 +6,12 @@ COPY cv_project/requirements.txt requirements/requirements.txt
 RUN pip install -U pip && pip install -r requirements/requirements.txt
 
 COPY src /app/src
-COPY cv_project/wsgi.py /app/wsgi.py
+COPY wsgi.py /app/wsgi.py
 COPY bin /app/bin
-COPY cv_project/cv.json /app/cv.json
-COPY cv_project/app.py /app/app.py
-COPY cv_project/config.py /app/config.py
-COPY cv_project/commands.py /app/commands.py
+COPY cv.json /app/cv.json
+COPY app.py /app/app.py
+COPY config.py /app/config.py
+COPY commands.py /app/commands.py
 
 WORKDIR /app
 
